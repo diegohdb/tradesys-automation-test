@@ -1,0 +1,24 @@
+{
+  "name": "tradesys-automation-test",
+  "version": "1.0.0",
+  "description": "This is the automation test solution for Tradesys",
+  "main": "index.js",
+  "scripts": {
+    "cy:test": "npx cypress run --browser chrome --headless --spec 'cypress/integration/tradesy.spec.js'",
+    "cy:open": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegohdb/tradesys-automation-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegohdb/tradesys-automation-test/issues"
+  },
+  "homepage": "https://github.com/diegohdb/tradesys-automation-test#readme",
+  "dependencies": {
+    "cypress": "^8.3.0"
+  }
+}
